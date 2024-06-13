@@ -32,6 +32,9 @@ input{
     border: 2px solid #ccc;
     background-color: white;
 }
+small{
+    color: red;
+}
 button{
     background-color: #000;
     color: #fff;
