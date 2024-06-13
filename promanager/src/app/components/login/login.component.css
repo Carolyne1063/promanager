@@ -10,6 +10,7 @@ h1{
     color: #555;
     padding-bottom: 4px;
     border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 .form-control{
     margin-bottom: 16px;
@@ -26,6 +27,9 @@ input{
     width: 100%;
     border: 2px solid #ccc;
     background-color: white;
+}
+small{
+    color: red;
 }
 button{
     background-color: #000;
