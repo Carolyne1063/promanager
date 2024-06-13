@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+.home-text{
+    margin-top: 80px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.get-startedBtn{
+    padding: 12px;
+    background-color: rgb(109, 168, 231);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.get-startedBtn:hover{
+    cursor: pointer;
+}

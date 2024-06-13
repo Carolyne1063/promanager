@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.user {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+.profile, .user, .projects, .notifications, .logout{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+}
+.admin:hover, .projects:hover, .users:hover, .notifications:hover, .logout:hover, .profile:hover{
+    background-color: rgb(21, 21, 24);
+    color: white;
+    cursor: pointer;
+}
+.container{
+    padding: 40px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-y: scroll;
+}
