@@ -43,3 +43,13 @@ button{
     width: 90%;
     font-size: 10px;
 }
+.redirect{
+    margin-top: 20px;
+}
+a{
+    margin-left: 10px;
+    color: blue;
+}
+a:hover{
+    cursor: pointer;
+}

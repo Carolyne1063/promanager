@@ -1,0 +1,26 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60vw;
+    height: fit-content;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  td > button{
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+  }
+  td > button:hover{
+    cursor: pointer;
+  }

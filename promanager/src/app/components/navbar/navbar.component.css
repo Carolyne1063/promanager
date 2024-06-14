@@ -9,6 +9,8 @@
     align-items: center;
     gap: 50px;
     font-size: 20px;
+    background-color: #333;
+    color: white;
 }
 .navbar button{
     background-color: rgb(30, 115, 180);

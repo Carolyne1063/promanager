@@ -11,6 +11,14 @@ import { UserDashboardComponent } from './components/user-dashboard/user-dashboa
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { routes } from './app.routes'; // Adjust path if necessary
+import { RouterModule } from '@angular/router';
+
+import { CommonModule } from '@angular/common'; // Import CommonModule
+import { HomeAdminComponent } from './components/admin-dashboard/home-admin/home-admin.component';
+import { ProjectsAdminComponent } from './components/admin-dashboard/projects-admin/projects-admin.component';
+import { UsersAdminComponent } from './components/admin-dashboard/users-admin/users-admin.component';
+import { NotificationsAdminComponent } from './components/admin-dashboard/notifications-admin/notifications-admin.component';
+import { LogoutAdminComponent } from './components/admin-dashboard/logout-admin/logout-admin.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +28,20 @@ import { routes } from './app.routes'; // Adjust path if necessary
     RegisterComponent,
     UserDashboardComponent,
     AdminDashboardComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeAdminComponent,
+    ProjectsAdminComponent,
+    UsersAdminComponent,
+    NotificationsAdminComponent,
+    LogoutAdminComponent
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     FormsModule, // Include FormsModule here
-    routes // Include AppRoutingModule or app.routes here
+    routes,// Include AppRoutingModule or app.routes here
+    RouterModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,19 +1,13 @@
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
 form{
     max-width: 400px;
     margin: 80px auto;
     padding: 16px 16px 24px;
     box-shadow: 0 2px 32px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
-h1{
-    margin-top: 0;
-    color: #555;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-}
-.form-control{
-    margin-bottom: 16px;
 }
 label{
     font-size: 12px;
@@ -27,9 +21,6 @@ input{
     width: 90%;
     border: 2px solid #ccc;
     background-color: white;
-}
-small{
-    color: red;
 }
 button{
     background-color: #000;
