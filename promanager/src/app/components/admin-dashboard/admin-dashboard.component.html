@@ -1,26 +1,10 @@
-<div class="sidebar">
-
-    <div class="admin">
-        <p>Admin</p>
+<main>
+    <app-sidebar (selectSection)="onSectionSelected($event)"></app-sidebar>
+    <div class="dashboard-container">
+        <app-home-admin *ngIf="selectedSection === 'home'"></app-home-admin>
+        <app-projects-admin *ngIf="selectedSection === 'projects'"></app-projects-admin>
+        <app-users-admin *ngIf="selectedSection === 'users'"></app-users-admin>
+        <app-notifications-admin *ngIf="selectedSection === 'notifications'"></app-notifications-admin>
+        <app-logout-admin *ngIf="selectedSection === 'logout'"></app-logout-admin>
     </div>
-    <hr>
-    <div class="profile" id="nav-profile">
-        <p>Profile</p>
-    </div>
-    <div class="projects" id="nav-projects">
-        <p>Projects</p>
-    </div>
-    <div class="users" id="nav-users">
-        <p>Users</p>
-    </div>
-    <div class="notifications" id="nav-notifications">
-        <p>Notifications</p>
-    </div>
-    <div class="logout">
-        <p>Log Out</p>
-    </div>
-
-</div>
-<div class="container">
-    
-</div>
+</main>

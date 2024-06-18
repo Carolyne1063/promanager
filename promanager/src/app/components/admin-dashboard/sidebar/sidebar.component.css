@@ -1,0 +1,24 @@
+.sidebar{
+    padding: 20px;
+    width: 20vw;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 2px solid gray;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: aliceblue;
+    color: 0px 0px 28px rgba(0, 0, 0, .08);
+    font-size: 20px;
+    font-weight: 400;
+}
+a:hover{
+    background-color: rgb(21, 21, 24);
+    color: white;
+    cursor: pointer;
+}
